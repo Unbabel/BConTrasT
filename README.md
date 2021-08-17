@@ -15,5 +15,39 @@ Each conversation in the data file has the following structure:
     
 
 **Note:** Since here we assume customer and agent speak in their own language, the source and target text might be in English or German depending on the role.
+
+# License
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+The dataset in this repository, used for the WMT20 shared task, is provided under the terms of the [CC-BY-SA-4.0](LICENSE-CC-BY-SA-4.0). 
+
 # Citation
-TBA
+If you use this please cite:
+
+M Amin Farajian, António V Lopes, André FT Martins, Sameen Maruf, Gholamreza Haffari (2020). Findings of the wmt 2020 shared task on chat translation (https://aclanthology.org/2020.wmt-1.3/)
+
+    @inproceedings{farajian-etal-2020-findings,
+        title = "Findings of the {WMT} 2020 Shared Task on Chat Translation",
+        author = "Farajian, M. Amin  and
+          Lopes, Ant{\'o}nio V.  and
+          Martins, Andr{\'e} F. T.  and
+          Maruf, Sameen  and
+          Haffari, Gholamreza",
+        booktitle = "Proceedings of the Fifth Conference on Machine Translation",
+        month = nov,
+        year = "2020",
+        address = "Online",
+        publisher = "Association for Computational Linguistics",
+        url = "https://aclanthology.org/2020.wmt-1.3",
+        pages = "65--75",
+    }
+
+
